@@ -2,26 +2,28 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.studentapp">
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="Student App"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".StudentMainActivity"></activity>
-        <activity android:name=".StudentData" />
-        <activity android:name=".LecturerDetail" />
-        <activity android:name=".adapter.LecturerAdapter" />
-        <activity android:name=".LecturerData" />
-        <activity android:name=".Starter" />
-        <activity android:name=".AddCourse" />
-        <activity android:name=".AddLecturer" />
-        <activity android:name=".StudentLogin" />
-        <activity android:name=".StudentRegister"/>
-        <activity android:name=".SplashScreen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="Student App"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+   <activity android:name=".CourseData"></activity>
+    <activity android:name=".adapter.CourseAdapter"></activity>
+    <activity android:name=".StudentMainActivity"></activity>
+    <activity android:name=".StudentData" />
+    <activity android:name=".LecturerDetail" />
+    <activity android:name=".adapter.LecturerAdapter" />
+    <activity android:name=".LecturerData" />
+    <activity android:name=".Starter" />
+    <activity android:name=".AddCourse" />
+    <activity android:name=".AddLecturer" />
+    <activity android:name=".StudentLogin" />
+    <activity android:name=".StudentRegister"/>
+    <activity android:name=".SplashScreen">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>

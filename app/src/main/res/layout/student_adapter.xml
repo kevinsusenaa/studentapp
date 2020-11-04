@@ -72,7 +72,7 @@
                 app:layout_constraintGuide_begin="46dp" />
 
             <View
-                android:id="@+id/divider"
+                android:id="@+id/dividr"
                 android:layout_width="0dp"
                 android:layout_height="4dp"
                 android:layout_marginStart="8dp"
@@ -97,7 +97,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/divider" />
+                app:layout_constraintTop_toBottomOf="@+id/dividr" />
 
             <TextView
                 android:id="@+id/cv_gender_student"

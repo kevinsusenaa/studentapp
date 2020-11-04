@@ -65,14 +65,14 @@
                 android:layout_marginEnd="8dp"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:text="TextView"
-                android:textColor="@color/design_default_color_on_secondary"
+
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView2"
                 app:layout_constraintTop_toTopOf="@+id/guideline" />
 
             <View
-                android:id="@+id/divider"
+                android:id="@+id/dividr"
                 android:layout_width="0dp"
                 android:layout_height="4dp"
                 android:layout_marginStart="8dp"
@@ -96,7 +96,7 @@
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/divider" />
+                app:layout_constraintTop_toBottomOf="@+id/dividr" />
 
             <TextView
                 android:id="@+id/cv_expertise"

@@ -106,7 +106,7 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.CardView
             });
         }
 
-        //IF IT WORKS, IT WOKRS!!!!
+
         @Override
         public void onClick(View v) {
             onCardListener.onCardClick(getAdapterPosition());
